@@ -1,0 +1,22 @@
+Assignment 3-
+
+#1
+bash-3.2$ sed '[Zz][Oo][Oo]/d' /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/panda_zoos.txt 
+#2
+bash-3.2$ awk '{print $1, $4, $2}' /Users/audreykably/Desktop/pandas.txt | sort -k3 > /Users/audreykably/Desktop/sorted_pandas.txt 
+#3
+bash-3.2$ awk '{print $5}' /Users/audreykably/Desktop/pandas.txt | sort | uniq > /Users/audreykably/Desktop/panda_zoos_A2Z.txt 
+#4
+bash-3.2$ sed -e 's/female/F/g' -e 's/male/M/g' /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/panda_m_f.txt 
+#5
+bash-3.2$ grep -c "October" /Users/audreykably/Desktop/pandas.txt
+#6
+bash-3.2$ grep -n '^' /Users/audreykably/Desktop/pandas.txt | sed 's/:/ /' > /Users/audreykably/Desktop/panda_names.txt 
+#7
+bash-3.2$ sed -n -e '1p' -e '6p' -e '17p' /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/lines_1_6_17.txt 
+#8
+bash-3.2$ grep -i "x" /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/x_lines.txt
+#9
+bash-3.2$ awk '{print $5}' /Users/audreykably/Desktop/pandas.txt | sort | uniq > /Users/audreykably/Desktop/unique_places.txt 
+#10
+bash-3.2$ awk '$4 <= 10' pandas.txt | awk '{print $1, $4}' | sort -k2 > /Users/audreykably/Desktop/young_pandas.txt
