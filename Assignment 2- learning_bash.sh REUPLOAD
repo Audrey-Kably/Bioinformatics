@@ -1,0 +1,13 @@
+#!/bin/bash
+
+greeting=Hello
+your_name=Audrey
+echo "$greeting $your_name"
+Hello Audrey
+mkdir bioinformatics
+mkdir bash_scripts 
+mv ~/Desktop/bash_template.txt ~/bioinformatics/bash_scripts/bash_template.txt
+mv ~/bioinformatics/bash_scripts/bash_template.txt ~/bioinformatics/bash_scripts/learning_bash.sh
+
+
+
