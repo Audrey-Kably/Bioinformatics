@@ -1,0 +1,16 @@
+Assignment 5 - Questions 3-5
+
+Q3.
+muscle -in bats_ace2.fasta -out bats_ace2_alignment.fasta
+RAxMLHPC -s bats_ace2_alignment.fasta -n result_tree -m GTRGAMMA -p 12345 -# 100 -f a
+
+Q4.
+Pteropus lylei ace2
+Dobsonia virdis ace2
+Cynopterus sphinx ace2
+Epomophorus wahlbergi ace2
+Rousettus leschenaultii ace2
+Synconycteris australis ace2
+
+Q5.
+Phylogenetic trees are useful because you can use them to study a species or virus and others related to it by finding their most common ancestor(s). In light of recent events, knowing a species' or virus' most common ancestor may allow for better understanding and may also lead to better treatment methods.
