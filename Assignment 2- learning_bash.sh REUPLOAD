@@ -4,10 +4,9 @@ greeting=Hello
 your_name=Audrey
 echo "$greeting $your_name"
 Hello Audrey
+cd /Users/audreykably/Desktop
 mkdir bioinformatics
+cd /Users/audreykably/Desktop/bioinformatics
 mkdir bash_scripts 
-mv ~/Desktop/bash_template.txt ~/bioinformatics/bash_scripts/bash_template.txt
-mv ~/bioinformatics/bash_scripts/bash_template.txt ~/bioinformatics/bash_scripts/learning_bash.sh
-
-
-
+mv /Users/audreykably/Desktop/bash_template.txt /Users/audreykably/Desktop/bioinformatics/bash_scripts
+mv /Users/audreykably/Desktop/bioinformatics/bash_scripts/bash_template.txt /users/audreykably/Desktop/bioinformatics/bash_scripts/bash_template.sh
