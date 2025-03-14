@@ -1,0 +1,24 @@
+Assignment 4-
+
+#1) makeblastdb -in database_mystery_transcripts.fasta -dbtype nucl -out bioinformatics_1
+
+#2) makeblastdb -in database_mystery_protein.fasta -dbtype prot -out bioinformatics_2
+
+#3) blastn -db bioinformatics_1 -query query_mystery_nucleotide.fasta -evalue 1e-3 -max_target_seqs 5 -outfmt 7 -out results_1 
+
+#4) T010027234997, T010003453160, and T010027234995
+
+#5) awk '$3 > 90 {print$2}' results_1 > most_similar.txt
+
+#6) blastp -db bioinformatics_2 -query -query_mystery_protein.fasta -evalue 1e-5 -max_target_seqs 15 -outfmt 7 -out results_2
+
+#7) P010027090796, P010027090798, P010027073865, P010027077695, P010027071558, and P010027071553
+
+#8) Coffea arabica
+
+#9) Gardenia jasminoides
+
+#10) Gardenia jasminoides Putative catalase mRNA, complete cds
+
+
+
