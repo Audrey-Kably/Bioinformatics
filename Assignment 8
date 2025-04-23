@@ -1,0 +1,22 @@
+Assignment 8-
+
+1) Chinese Hamster Ovary (CHO-K1)
+
+2) F2 (high cholesterol)
+
+3) Rank 1 target sequence: GTCAGTGATGCGTATCCGAGTGG
+   genomic location: NC_048599.1:85138759
+
+4) Pair 1:
+   left primer coordinates: NC_048599.1:85138559-85138581 
+   left primer: AAGGCTTCTAGATGCTGTCAGG	
+   left primer Tm: 60.0	
+   left primer off targets: 0	
+   right primer coordinates: NC_048599.1:85138821-85138843	
+   right primer: CCAAGTCTACCAATCCCTGTTC	
+   right primer Tm: 59.9	
+   right primer off targets: 0	
+   pair off targets: 0	
+   product size: 284
+
+5) If you were to knockout the F2 gene in a Chinese Hamster Ovary the results would reflect altered growth, altered productivity, as well as an altered presence of host cell proteins.
