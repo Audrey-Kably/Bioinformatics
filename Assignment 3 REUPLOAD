@@ -1,7 +1,7 @@
 Assignment 3-
 
 #1
-bash-3.2$ sed '[Zz][Oo][Oo]/d' /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/panda_zoos.txt 
+bash-3.2$ sed '/[Zz][Oo][Oo]/d' /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/panda_zoos.txt 
 #2
 bash-3.2$ awk '{print $1, $4, $2}' /Users/audreykably/Desktop/pandas.txt | sort -k3 > /Users/audreykably/Desktop/sorted_pandas.txt 
 #3
@@ -9,7 +9,7 @@ bash-3.2$ awk '{print $5}' /Users/audreykably/Desktop/pandas.txt | sort | uniq >
 #4
 bash-3.2$ sed -e 's/female/F/g' -e 's/male/M/g' /Users/audreykably/Desktop/pandas.txt > /Users/audreykably/Desktop/panda_m_f.txt 
 #5
-bash-3.2$ grep -c "October" /Users/audreykably/Desktop/pandas.txt
+bash-3.2$ grep "female" /Users/audreykably/Desktop/pandas.txt | -c "October"
 #6
 bash-3.2$ grep -n '^' /Users/audreykably/Desktop/pandas.txt | sed 's/:/ /' > /Users/audreykably/Desktop/panda_names.txt 
 #7
